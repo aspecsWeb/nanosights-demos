@@ -1,0 +1,21 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "This no-framework setup shows how to use [NanoSights](https://www.nanosights.dev) in a fully type-safe TypeScript environment.",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:sass": "sass src/styles:dist/styles",
+    "build": "npm run build:ts && npm run build:sass",
+    "watch:ts": "tsc --watch",
+    "watch:sass": "sass --watch src/styles:dist/styles",
+    "watch": "npm run watch:ts & npm run watch:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "typescript": "^5.8.3"
+  }
+}
