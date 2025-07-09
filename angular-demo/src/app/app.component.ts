@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import 'nano-analytics';
+import "nano-insights";
 
 @Component({
   selector: 'app-root',

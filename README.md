@@ -17,11 +17,11 @@ Each project includes a live demo, a YouTube walkthrough, and links to the offic
 
 The following table shows the status of each Nanosights tag implementation across supported frameworks:
 
-| Framework     | `nano-analytics` | `nano-insights` | `nano-custom` |
-|---------------|------------------|------------------|----------------|
+| Framework     | `nano-analytics`  | `nano-insights`  | `nano-custom`.  |
+|---------------|-------------------|------------------|-----------------|
 | Next.js       | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Astro         | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
-| Angular       | ☑️ Implemented    | ⬜ Not yet        | ⬜ Not yet      |
+| Angular       | ☑️ Implemented    | ☑️ Implemented    | ⬜ Not yet      |
 | Svelte        | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Vue           | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Vanilla JS    | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
