@@ -1,1 +1,3 @@
-console.log("Hello, NanoSights!");
+import "./styles/main.scss";
+
+console.log("NanoSights + Webpack is running");
