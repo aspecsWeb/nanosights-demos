@@ -9,7 +9,7 @@ Available examples:
 - [Svelte](./svelte-demo)
 - [Vue](./vue-demo)
 - [Vanilla JS](./vanilla-demo)
-- [TypeScript (No Framework)](./typescript-demo)
+- [Webpack](./webpack-demo)
 
 Each project includes a live demo, a YouTube walkthrough, and links to the official documentation.
 
@@ -25,4 +25,4 @@ The following table shows the status of each Nanosights tag implementation acros
 | Svelte        | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Vue           | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Vanilla JS    | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
-| TypeScript    | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
+| Webpack       | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
