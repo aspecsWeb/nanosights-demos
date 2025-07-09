@@ -20,7 +20,7 @@ The following table shows the status of each Nanosights tag implementation acros
 | Framework     | `nano-analytics`  | `nano-insights`  | `nano-custom`.  |
 |---------------|-------------------|------------------|-----------------|
 | Next.js       | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
-| Astro         | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
+| Astro         | ☑️ Implemented    | ⬜ Not yet        | ⬜ Not yet      |
 | Angular       | ☑️ Implemented    | ☑️ Implemented    | ⬜ Not yet      |
 | Svelte        | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
 | Vue           | ⬜ Not yet        | ⬜ Not yet        | ⬜ Not yet      |
