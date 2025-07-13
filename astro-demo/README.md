@@ -13,3 +13,87 @@ This example shows how to use [NanoSights](https://www.nanosights.dev) in a cont
 ```bash
 npm install
 npm run dev
+```
+
+## 📦 Usage in your own project
+
+### NanoAnalytics
+
+Works out of the box.
+
+#### Install package
+
+```bash
+npm install nano-analytics
+```
+
+#### Import in your `Lauyout.astro`
+
+```ts
+import "nano-insights"
+```
+
+#### Embed the element in your `Layout.astro`
+
+```html
+<nano-analytics
+  projectKey="YOUR_PROJECT_KEY"
+  userId="USER_ID"
+/>
+```
+
+### NanoInsights
+
+Works out of the box.
+
+#### Install package
+
+```bash
+npm install nano-insights
+```
+
+#### Import in your `Lauyout.astro`
+
+```ts
+import "nano-insights"
+```
+
+#### Embed the element in your `Layout.astro`
+
+```html
+<nano-insights
+  projectKey="YOUR_PROJECT_KEY"
+  userId="USER_ID"
+/>
+```
+
+### NanoCustom
+
+Works out of the box.
+
+#### Install package
+
+```bash
+npm install nano-custom
+```
+
+#### Import in your `Lauyout.astro`
+
+```ts
+import "nano-custom"
+```
+
+#### Embed the element in your `Layout.astro`
+
+```html
+<nano-custom
+  projectKey="YOUR_PROJECT_KEY"
+  userId="USER_ID"
+/>
+```
+
+#### Use the track function in `*.astro`
+
+```html
+<button onclick="track('Tracks')">Track</button>
+```

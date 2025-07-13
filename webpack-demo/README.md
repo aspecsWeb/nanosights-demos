@@ -92,6 +92,12 @@ import "nano-custom"
 />
 ```
 
+#### Use the track function in `*.html`
+
+```html
+<button onclick="track('Tracks')">Track</button>
+```
+
 #### Configure `tsconfig.json`
 
 Add the following inside your `tsconfig.json`
