@@ -44,7 +44,7 @@ npm install nano-analytics
 #### Import in your `*.component.ts`
 
 ```ts
-import "nano-insights"
+import "nano-analytics"
 ```
 
 #### Embed the element in your `*.component.html`

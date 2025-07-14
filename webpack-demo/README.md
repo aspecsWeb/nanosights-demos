@@ -30,7 +30,7 @@ npm install nano-analytics
 #### Import in your `index.ts`
 
 ```ts
-import "nano-insights"
+import "nano-analytics"
 ```
 
 #### Embed the element in your `index.html`

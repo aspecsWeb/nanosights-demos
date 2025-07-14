@@ -30,7 +30,7 @@ npm install nano-analytics
 #### Import in your `Lauyout.astro`
 
 ```ts
-import "nano-insights"
+import "nano-analytics"
 ```
 
 #### Embed the element in your `Layout.astro`
