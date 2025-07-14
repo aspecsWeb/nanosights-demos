@@ -15,6 +15,11 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+	<nano-analytics
+		projectKey="mcw2ugsj162ft"
+		userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
+	/>
 </template>
 
 <style scoped>
