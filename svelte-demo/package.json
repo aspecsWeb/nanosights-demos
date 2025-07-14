@@ -11,5 +11,8 @@
   "devDependencies": {
     "typescript": "~5.8.3",
     "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "nano-analytics": "^0.10.0"
   }
 }
