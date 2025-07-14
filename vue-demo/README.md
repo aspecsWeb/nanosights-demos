@@ -27,13 +27,13 @@ Works out of the box.
 npm install nano-analytics
 ```
 
-#### Import in your `main.ts`
+#### Import in your `src/main.ts`
 
 ```ts
 import "nano-analytics"
 ```
 
-#### Embed the element in your `App.vue`
+#### Embed the element in your `src/App.vue`
 
 ```html
 <nano-analytics

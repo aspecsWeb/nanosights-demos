@@ -41,13 +41,13 @@ Works out of the box.
 npm install nano-analytics
 ```
 
-#### Import in your `*.component.ts`
+#### Import in your `src/app/app.component.ts`
 
 ```ts
 import "nano-analytics"
 ```
 
-#### Embed the element in your `*.component.html`
+#### Embed the element in your `src/app/app.component.html`
 
 ```html
 <nano-analytics
@@ -66,13 +66,13 @@ Works out of the box.
 npm install nano-insights
 ```
 
-#### Import in your `*.component.ts`
+#### Import in your `src/app/app.component.ts`
 
 ```ts
 import "nano-insights"
 ```
 
-#### Embed the element in your `*.component.html`
+#### Embed the element in your `src/app/app.component.html`
 
 ```html
 <nano-insights
@@ -91,7 +91,7 @@ Requires an extra step to make the `track` function available in the `component`
 npm install nano-custom
 ```
 
-#### Import in your `*.component.ts`
+#### Import in your `src/app/app.component.ts`
 
 ```ts
 import "nano-custom"
@@ -104,7 +104,7 @@ export class Component {
 }
 ```
 
-#### Embed the element in your `*.component.html`
+#### Embed the element in your `src/app/app.component.html`
 
 ```html
 <nano-custom
@@ -113,7 +113,7 @@ export class Component {
 />
 ```
 
-#### Use the track function in `*.component.html`
+#### Use the track function in `src/app/app.component.html`
 
 ```html
 <button (click)="track('Tracks')">Track</button>

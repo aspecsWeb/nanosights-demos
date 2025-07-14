@@ -27,13 +27,13 @@ Works out of the box.
 npm install nano-analytics
 ```
 
-#### Import in your `Lauyout.astro`
+#### Import in your `src/layouts/Lauyout.astro`
 
 ```ts
 import "nano-analytics"
 ```
 
-#### Embed the element in your `Layout.astro`
+#### Embed the element in your `src/layouts/Lauyout.astro`
 
 ```html
 <nano-analytics
@@ -52,13 +52,13 @@ Works out of the box.
 npm install nano-insights
 ```
 
-#### Import in your `Lauyout.astro`
+#### Import in your `src/layouts/Lauyout.astro`
 
 ```ts
 import "nano-insights"
 ```
 
-#### Embed the element in your `Layout.astro`
+#### Embed the element in your `src/layouts/Lauyout.astro`
 
 ```html
 <nano-insights
@@ -77,13 +77,13 @@ Works out of the box.
 npm install nano-custom
 ```
 
-#### Import in your `Lauyout.astro`
+#### Import in your `src/layouts/Lauyout.astro`
 
 ```ts
 import "nano-custom"
 ```
 
-#### Embed the element in your `Layout.astro`
+#### Embed the element in your `src/layouts/Lauyout.astro`
 
 ```html
 <nano-custom

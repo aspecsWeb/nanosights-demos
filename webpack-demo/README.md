@@ -33,7 +33,7 @@ npm install nano-analytics
 import "nano-analytics"
 ```
 
-#### Embed the element in your `index.html`
+#### Embed the element in your `src/index.html`
 
 ```html
 <nano-analytics
@@ -52,7 +52,7 @@ Works out of the box.
 npm install nano-insights
 ```
 
-#### Import in your `index.ts`
+#### Import in your `src/index.ts`
 
 ```ts
 import "nano-insights"
