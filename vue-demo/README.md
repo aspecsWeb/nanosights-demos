@@ -41,3 +41,28 @@ import "nano-analytics"
   userId="USER_ID"
 />
 ```
+
+### NanoInsights
+
+Works out of the box.
+
+#### Install package
+
+```bash
+npm install nano-insights
+```
+
+#### Import in your `src/main.ts`
+
+```ts
+import "nano-insights"
+```
+
+#### Embed the element in your `src/App.vue`
+
+```html
+<nano-insights
+  projectKey="YOUR_PROJECT_KEY"
+  userId="USER_ID"
+/>
+```
