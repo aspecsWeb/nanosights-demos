@@ -3,7 +3,7 @@
 This Vue example demonstrates how to plug [NanoSights](https://www.nanosights.dev) into a reactive, component-driven UI.
 
 - 🔗 **Live Demo:** www.vue.nanosights.dev  
-- 🎥 **YouTube Walkthrough:**  
+- 🎥 **YouTube Walkthrough:** https://www.youtube.com/watch?v=_ceO3riNmro
 - 📚 **Docs Page:** [Docs](https://www.nanosights.dev/docs)
 
 ---
