@@ -69,7 +69,7 @@ import "nano-insights"
 
 ### NanoCustom
 
-Requires an extra step for TypeScript to recognize the module.
+Requires additional steps for TypeScript to recognize the module and locate the `track` function.
 
 #### Install package
 
@@ -96,6 +96,12 @@ import "nano-custom"
 
 ```html
 <button onclick="track('Tracks')">Track</button>
+```
+
+#### Assign the track function to the global window object in `index.ts`
+
+```ts
+(window as any).track = track;
 ```
 
 #### Configure `tsconfig.json`
