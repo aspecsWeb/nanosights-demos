@@ -1,0 +1,44 @@
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+p {
+  color: #aaa;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.logos img {
+  height: 80px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+a.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+a.primary {
+  background: #a01d5f;
+  color: white;
+}
+a.primary:hover {
+  background: #8c1a4b;
+}
+a.secondary {
+  background: #333;
+  color: #f5f5f5;
+}
+a.secondary:hover {
+  background: #444;
+}
