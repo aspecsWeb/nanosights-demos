@@ -8,12 +8,25 @@ This simple example integrates [NanoSights](https://www.nanosights.dev) using pl
 
 ---
 
-## 📄 Quick Start
 
-Create an `index.html` file.
+## 📦 Usage in your own project
 
-#### Add the Analytics script to your `index.html`
+### NanoAnalytics
+
+Works out of the box.
+
+#### Place the script inside your pages
 
 ```html
-<script src="http://localhost:3000/api/tags/analytics/script?projectKey=PROJECT_KEY&userId=USER_ID"></script>
+<script src="https://www.nanosights.dev/api/tags/analytics/script?projectKey=PROJECT_KEY&userId=USER_ID"></script>
+```
+
+### NanoInsights
+
+Works out of the box.
+
+#### Place the script inside your pages
+
+```html
+<script src="https://www.nanosights.dev/api/tags/insights/script?projectKey=PROJECT_KEY&userId=USER_ID"></script>
 ```
