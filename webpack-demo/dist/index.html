@@ -6,7 +6,28 @@
     <title>NanoSights + Webpack</title>
   <script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
   <body>
-    <h1>NanoSights + Webpack</h1>
+    <div class="logos">
+      <img src="/webpack-logo.svg" alt="Webpack Logo" />
+      <img
+        src="https://www.nanosights.dev/images/logo.svg"
+        alt="NanoSights Logo"
+      />
+    </div>
+    <h1>Webpack + NanoSights</h1>
+    <p>This demo shows how NanoSights integrates with Webpack + TypeScript.</p>
+
+    <div class="buttons">
+      <a
+        onclick="track('CTA')"
+        class="button primary"
+        href="https://www.nanosights.dev"
+        target="_blank"
+        >Go to NanoSights</a
+      >
+      <a class="button secondary" href="https://www.nanosights.dev/docs"
+        >Documentation</a
+      >
+    </div>
 
     <nano-analytics
       projectKey="mcw2ugsj162ft"
@@ -14,6 +35,11 @@
     />
 
     <nano-insights
+      projectKey="mcw2ugsj162ft"
+      userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
+    />
+
+    <nano-custom
       projectKey="mcw2ugsj162ft"
       userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
     />
