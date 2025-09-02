@@ -33,7 +33,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
     new CopyWebpackPlugin({
-      patterns: [{ from: "public", to: "public" }],
+      patterns: [{ from: "public" }],
     }),
   ],
   devServer: {
