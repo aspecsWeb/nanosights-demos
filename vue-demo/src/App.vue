@@ -1,56 +1,35 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { track } from 'nano-custom'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div class="logos">
+    <img src="./assets/vue-logo.svg" alt="Vue Logo" class="logo" width="80" height="80" />
+    <img src="https://www.nanosights.dev/images/logo.svg" alt="NanoSights Logo" class="logo" width="80" height="80" />
+  </div>
+  <h1>Vue + NanoSights</h1>
+  <p>This demo shows how NanoSights integrates with Vue.js.</p>
+  <div class="buttons">
+    <a
+      @click="track('CTA')"
+      class="button primary"
+      href="https://www.nanosights.dev"
+      target="_blank">Go to NanoSights</a>
+    <a class="button secondary" href="https://www.nanosights.dev/docs">
+      Documentation
+    </a>
+  </div>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
-
-	<nano-analytics
-		projectKey="mcw2ugsj162ft"
-		userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
-	/>
+  <nano-analytics
+    projectKey="mcw2ugsj162ft"
+    userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
+  />
   <nano-insights
-		projectKey="mcw2ugsj162ft"
-		userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
-	/>
+    projectKey="mcw2ugsj162ft"
+    userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
+  />
+  <nano-custom
+    projectKey="mcw2ugsj162ft"
+    userId="a5fb0950-8486-43a2-8ee5-dc4f551a4003"
+  />
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
