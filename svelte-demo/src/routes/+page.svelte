@@ -6,7 +6,7 @@
 </script>
 
 <div class="logos">
-  <img src="/favicon.svg" alt="Svelte Logo" class="logo" width="80" height="80" />
+  <img src="/svelte-logo.svg" alt="Svelte Logo" class="logo" width="80" height="80" />
   <img src="https://www.nanosights.dev/images/logo.svg" alt="NanoSights Logo" class="logo" width="80" height="80" />
 </div>
 <h1>SvelteKit + NanoSights</h1>
